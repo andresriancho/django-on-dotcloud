@@ -21,10 +21,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'happydb',
-        'USER': env['DOTCLOUD_DB_SQL_LOGIN'],
-        'PASSWORD': env['DOTCLOUD_DB_SQL_PASSWORD'],
-        'HOST': env['DOTCLOUD_DB_SQL_HOST'],
-        'PORT': int(env['DOTCLOUD_DB_SQL_PORT']),
+        'USER': env['DOTCLOUD_DATA_MYSQL_LOGIN'],
+        'PASSWORD': env['DOTCLOUD_DATA_MYSQL_PASSWORD'],
+        'HOST': env['DOTCLOUD_DATA_MYSQL_HOST'],
+        'PORT': int(env['DOTCLOUD_DATA_MYSQL_PORT']),
     }
 }
 
